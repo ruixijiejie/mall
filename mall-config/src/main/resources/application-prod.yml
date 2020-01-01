@@ -1,0 +1,6 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://mall-registry:10086/eureka/
+  instance:
+    prefer-ip-address: true
